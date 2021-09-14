@@ -1,5 +1,5 @@
 ---
-title: js中的简单排序
+title: js中的常用排序
 date: 2021-09-12
 tags:
     - 算法

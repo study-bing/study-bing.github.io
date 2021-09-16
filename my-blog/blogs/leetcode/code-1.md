@@ -4,7 +4,7 @@ date: 2021-09-14
 tags:
  - leetcode
 categories:
- - leetcode
+ - js
 ---
 <https://leetcode-cn.com/problems/two-sum/>
 ![两数之和](./img/1.jpg)

@@ -4,7 +4,7 @@ date: 2021-09-15
 tags:
  - leetcode
 categories:
- - leetcode
+ - js
 ---
 <https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/>
 ![无重复字符的最长子串](./img/3.jpg)

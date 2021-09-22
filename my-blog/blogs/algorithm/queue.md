@@ -76,7 +76,7 @@ function demo(nameList, num) {
 ## 5.优先级队列
 ```js
 // 优先级队列，根据传入的优先级进行排序（从小到大）
-class priorityQueue extends Queue {
+class PriorityQueue extends Queue {
     constructor() {
         super()
         this.items = []

@@ -37,7 +37,7 @@ class Node {
         this.prev = null
     }
 }
-class doubleLinkedList {
+class DoubleLinkedList {
     constructor() {
         this.length = 0
         this.head = null

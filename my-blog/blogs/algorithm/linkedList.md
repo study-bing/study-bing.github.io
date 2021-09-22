@@ -48,7 +48,7 @@ class Node {
         this.next = null
     }
 }
-class linkedList {
+class LinkedList {
     constructor() {
         this.length = 0
         this.head = null

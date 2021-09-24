@@ -114,9 +114,9 @@ function process(array, l, r) {
     if (l === r) {
         return 0
     }
-    let middle = l + ((r - 1) >> 1) // 等于l+(r-l)/2
+    let middle = l + ((r - l) >> 1) // 等于l+(r-l)/2
 
-    process(array, 1, middle)
+    process(array, l, middle)
     process(array, middle + 1, r)
     merge(array, l, middle, r)
 }

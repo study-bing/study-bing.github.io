@@ -89,7 +89,7 @@ module.exports = {
         logo: '/bin.jpeg',
         search: true,
         searchMaxSuggestions: 10,
-        lastUpdated: 'Last Updated',
+        lastUpdated: '最后编辑时间',
         author: '阿饼',
         authorAvatar: '/bin.jpeg',
         record: '',
@@ -99,6 +99,17 @@ module.exports = {
         lineNumbers: true,
     },
     plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+              transformer: (timestamp, lang) => {
+                // 不要忘了安装 moment
+                const moment = require('moment')
+                moment.locale(lang)
+                return moment(timestamp).format('LLLL')
+              }
+            }
+          ],
         [
             '@vuepress-reco/vuepress-plugin-kan-ban-niang',
             {

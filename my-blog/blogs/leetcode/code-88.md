@@ -10,8 +10,8 @@ categories:
 <https://leetcode-cn.com/problems/merge-sorted-array/>
 ![ 合并两个有序数组](./img/88.jpg)
 ## 1.直接用数组的排序解决
->时间复杂度：O((m+n)\log(m+n))O((m+n)log(m+n))。
->排序序列长度为 m+nm+n，套用快速排序的时间复杂度即可，平均情况为 O((m+n)\log(m+n))O((m+n)log(m+n))
+>时间复杂度：O((m+n)log(m+n))
+>排序序列长度为 m+nm+n，套用快速排序的时间复杂度即可，平均情况为 O((m+n)log(m+n))
 
 ```js
 let merge = function (nums1, m, nums2, n) {

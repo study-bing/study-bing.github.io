@@ -82,11 +82,11 @@ function quickSort(array = [], l, r) {
     }
 }
 function partition(array, l, r) {
-    let start = l - 1 // <区边界
+    let start = l  // <区边界
     let end = r // >区边界
     while (l < end) {
         if (array[l] < array[r]) {
-            swap(array, ++start, l++)
+            swap(array, start++, l++)
         } else if (array[l] > array[r]) {
             swap(array, --end, l)
         } else {
@@ -94,7 +94,7 @@ function partition(array, l, r) {
         }
     }
     swap(array, end, r)
-    return [start + 1, end]
+    return [start, end]
 }
 function swap(array, l, r) {
     [array[l], array[r]] = [array[r], array[l]]

@@ -8,7 +8,7 @@ categories:
 ---
 
 <https://leetcode-cn.com/problems/symmetric-tree/>
-![ 对称二叉树](./img/100.jpg)
+![ 对称二叉树](./img/101.jpg)
 ## 1.常规解法
 
 ```js

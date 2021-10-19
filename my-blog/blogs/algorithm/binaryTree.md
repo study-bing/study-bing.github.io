@@ -47,12 +47,12 @@ categories:
 
 ## 6.二叉搜索树的一些方法
 `insert(key)`  ：向BST插入元素    
-`preOrderTraversal(function)`： 先序遍历,无参数默认返回key的数组  
+`preOrderTraversal(function)`： 先序遍历,无参数默认返回key的数组  11 -> 7 -> 5 -> 3 -> 6 -> 9 -> 8 -> 10 -> 15 -> 13 ->12 -> 14 -> 20 -> 18 -> 25 
 ![先序遍历](./img/bst-pre.jpg) 
-`midOrderTraversal(function)`： 中序遍历,无参数默认返回key的数组（key升序） 
+`midOrderTraversal(function)`： 中序遍历,无参数默认返回key的数组（key升序） 3 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 14 -> 15 -> 18 -> 20 -> 25
 ![中序遍历](./img/bst-mid.jpg)   
-`postOrderTraversal(function)`： 后序遍历,无参数默认返回key的数组  
-![后序遍历](./img/bst-post.jpg)  
+`postOrderTraversal(function)`： 后序遍历,无参数默认返回key的数组  3 -> 6 -> 5 -> 8 -> 10 -> 9 -> 7 -> 12 -> 14 -> 13 -> 18 -> 25 -> 20 -> 15 -> 11
+![后序遍历](./img/bst-post.png)  
 `remove(key)`  ：从BST删除元素  
 >1.没有子节点的情况下  
 >2.左节点为空，右节点有值  

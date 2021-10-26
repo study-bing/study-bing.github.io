@@ -6,10 +6,10 @@ tags:
 categories:
  - js
 ---
+## 1.函数节流
+（throttle）：当持续触发事件时，保证一定时间段内只调用一次事件处理函数。
+## 2.模拟简单的节流
 ``` js
-<!--
- * @Description: 模拟简单的节流
--->
 function throttle(fn, delay) {
     let timer = null
     return function () {

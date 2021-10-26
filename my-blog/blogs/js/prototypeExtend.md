@@ -163,8 +163,8 @@ function object(o) {
 
 function prototype(child, parent) {
     var prototype = object(parent.prototype);
-    prototype.constructor = child;
-    child.prototype = prototype;
+    prototype.constructor = child; //很重要
+    child.prototype = prototype; // 很重要
 }
 
 // 当我们使用的时候：
@@ -172,3 +172,28 @@ prototype(Child, Parent);
 ```
 这种方式的高效率体现它只调用了一次 Parent 构造函数，并且因此避免了在 Parent.prototype 上面创建不必要的、多余的属性。与此同时，原型链还能保持不变；因此，还能够正常使用 instanceof 和 isPrototypeOf。开发人员普遍认为寄生组合式继承是引用类型最理想的继承范式。
 >参考资料<https://github.com/mqyqingfeng/Blog/issues/16>
+
+# 7.Class继承
+Class 可以通过extends关键字实现继承
+```js
+class Point {
+}
+
+class ColorPoint extends Point {
+}
+```
+1.ES5 的继承，实质是先创造子类的实例对象this，然后再将父类的方法添加到this上面（Parent.apply(this)）。ES6 的继承机制完全不同，实质是先将父类实例对象的属性和方法，加到this上面（所以必须先调用super方法），然后再用子类的构造函数修改this    
+
+2.子类必须在constructor方法中调用super方法，否则新建实例时会报错。这是因为子类自己的this对象，必须先通过父类的构造函数完成塑造，得到与父类同样的实例属性和方法，然后再对其进行加工，加上子类自己的实例属性和方法。如果不调用super方法，子类就得不到this对象
+```js
+class Point { /* ... */ }
+
+class ColorPoint extends Point {
+  constructor() {
+  }
+}
+
+let cp = new ColorPoint(); // ReferenceError
+```
+
+>参考资料<https://es6.ruanyifeng.com/#docs/class-extends>

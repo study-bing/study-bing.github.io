@@ -31,6 +31,13 @@ compose(multiply, add)(10)
 
 ```js
 const compose = (...args) => (x) => args.reduceRight((res, cb) => cb(res), x)
+function compose(...args){
+    return (x) => {
+        return args.reduceRight((res, cb) =>{
+             return cb(res)
+        }, x)
+    }
+}
 ```
 
 ## 3.pipe

@@ -1,5 +1,5 @@
 ---
-title:  将有序数组转换为二叉搜索树
+title: 最小栈
 date: 2021-09-29
 tags:
     - leetcode

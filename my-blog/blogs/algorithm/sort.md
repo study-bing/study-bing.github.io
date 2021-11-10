@@ -150,12 +150,15 @@ function merge(array, l, m, r) {
 > 2.将堆顶元素与最后一个元素互换，将其他的元素从新构建一个堆
 ```js
 function heapify(array, index, heapSize) {
-    let left = index * 2 + 1
-    while (left < heapSize) {
+    let left = index * 2 + 1 // 左孩子的下标
+    while (left < heapSize) { // 下方还有孩子
+        // 两个孩子谁大，largest赋值谁的下标
+        // left + 1 是右孩子的下标
         let largest =
             left + 1 < heapSize && array[left + 1] > array[left]
                 ? left + 1
                 : left
+        // 父和孩子之间谁的值大，largest赋值谁的下标
         largest = array[largest] > array[index] ? largest : index
         if (largest === index) {
             break
@@ -204,7 +207,7 @@ console.log(list)
 
 ```
 
-## 9.桶排序
+## 7.桶排序
 ```js
 // 获取个十百千位的数字 x数字，d第几位
 function getDigit(x, d) {
@@ -282,7 +285,7 @@ console.log(arry)
 通常不考虑稳定性会用快排，因为快排的常数项经过试验是最低的！考虑空间的话用堆排！
 :::
 
-## 8.比较器
+## 9.比较器
 >返回负数第一位放前  
 >返回正数第二位放前  
 >返回0不作为

@@ -2,9 +2,9 @@
 title: JavaScript深入之从原型到原型链
 date: 2021-10-25
 tags:
-    - js
+ - js基础
 categories:
-    - js
+ - js
 ---
 
 ## 1.构造函数创建对象

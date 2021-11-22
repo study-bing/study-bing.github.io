@@ -2,7 +2,7 @@
 title: 常用的数组方法以及对象解构
 date: 2021-10-19
 tags:
- - js
+ - js基础
 categories:
  - js
 ---

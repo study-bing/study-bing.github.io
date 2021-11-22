@@ -2,9 +2,9 @@
 title:  删除有序数组中的重复项
 date: 2021-09-23
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/>

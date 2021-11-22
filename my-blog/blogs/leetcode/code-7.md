@@ -2,9 +2,9 @@
 title: 整数反转
 date: 2021-09-17
 tags:
- - leetcode
+ - 简单
 categories:
- - js
+ - leetcode
 ---
 <https://leetcode-cn.com/problems/reverse-integer/>
 ![整数反转](./img/7.jpg)

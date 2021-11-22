@@ -2,9 +2,9 @@
 title: 回文数
 date: 2021-09-22
 tags:
- - leetcode
+ - 简单
 categories:
- - js
+ - leetcode
 ---
 <https://leetcode-cn.com/problems/palindrome-number/>
 ![回文数](./img/9.jpg)

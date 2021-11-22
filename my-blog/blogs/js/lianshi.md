@@ -2,7 +2,7 @@
 title: 链式调用
 date: 2021-10-31
 tags:
- - js
+ - js基础
 categories:
  - js
 ---

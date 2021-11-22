@@ -2,7 +2,7 @@
 title: 模拟简单的节流
 date: 2021-05-06
 tags:
- - js
+ - js基础
 categories:
  - js
 ---

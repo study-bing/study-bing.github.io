@@ -2,9 +2,9 @@
 title:  平衡二叉树
 date: 2021-10-01
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/balanced-binary-tree/>

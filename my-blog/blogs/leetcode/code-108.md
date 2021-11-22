@@ -2,9 +2,9 @@
 title:  将有序数组转换为二叉搜索树
 date: 2021-09-29
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/>

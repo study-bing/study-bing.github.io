@@ -2,9 +2,9 @@
 title: webpack自定义loader
 date: 2021-08-20
 tags:
- - webpack
+ - webpack基础
 categories:
- - js
+ - webpack
 ---
 ## 1.介绍
 loader本质上是一个函数。webpack引入loader将无法识别的内容转换成js。

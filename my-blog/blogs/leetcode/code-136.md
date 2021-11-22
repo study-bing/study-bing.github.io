@@ -2,9 +2,9 @@
 title: 只出现一次的数字
 date: 2021-10-08
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/single-number/>

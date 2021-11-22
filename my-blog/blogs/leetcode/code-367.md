@@ -2,9 +2,9 @@
 title: 有效的完全平方数
 date: 2021-11-04
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/valid-perfect-square/>

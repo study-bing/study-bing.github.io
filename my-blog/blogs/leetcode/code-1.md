@@ -2,9 +2,9 @@
 title: 两数之和
 date: 2021-09-14
 tags:
- - leetcode
+ - 简单
 categories:
- - js
+ - leetcode
 ---
 <https://leetcode-cn.com/problems/two-sum/>
 ![两数之和](./img/1.jpg)

@@ -2,9 +2,9 @@
 title: 原型链继承
 date: 2021-10-26
 tags:
-    - js
+ - js基础
 categories:
-    - js
+ - js
 ---
 
 ## 1.原型链继承

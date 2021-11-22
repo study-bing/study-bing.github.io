@@ -57,9 +57,14 @@ const install = _Vue => {
 	Vue = _Vue
 	Vue.mixin({
 		beforeCreate() {
-			if (this.$options.store) {
-				// 如果有store，挂在到原型上可以全局使用
-				Vue.prototype.$store = this.$options.store
+			// if (this.$options.store) {
+			// 	// 如果有store，挂在到原型上可以全局使用
+			// 	Vue.prototype.$store = this.$options.store
+			// }
+            if (this.$options && this.$options.store) { // 根组件
+				this.$store = this.$options.store
+			} else { // 子组件 父->子
+				this.$store = this.$parent && this.$parent.$store
 			}
 		}
 	})

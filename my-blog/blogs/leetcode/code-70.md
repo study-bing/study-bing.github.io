@@ -2,9 +2,9 @@
 title: 爬楼梯
 date: 2021-09-24
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/climbing-stairs/>

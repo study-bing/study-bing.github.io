@@ -2,7 +2,7 @@
 title: 模拟promise
 date: 2021-04-28
 tags:
- - js
+ - js基础
 categories:
  - js
 ---

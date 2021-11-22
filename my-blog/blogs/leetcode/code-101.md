@@ -2,9 +2,9 @@
 title: 对称二叉树
 date: 2021-09-29
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/symmetric-tree/>

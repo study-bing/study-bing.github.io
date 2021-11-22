@@ -4,7 +4,7 @@ date: 2021-11-19
 tags:
     - vue
 categories:
-    - js
+    - vue
 ---
 
 ## 1.介绍

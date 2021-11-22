@@ -2,9 +2,9 @@
 title: 有效的括号
 date: 2021-09-23
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/valid-parentheses/>

@@ -2,9 +2,9 @@
 title:  二叉树的最小深度
 date: 2021-10-02
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/>

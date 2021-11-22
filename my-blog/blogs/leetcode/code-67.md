@@ -2,9 +2,9 @@
 title: 二进制求和
 date: 2021-09-26
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/add-binary/>

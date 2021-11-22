@@ -2,9 +2,9 @@
 title:  合并两个有序链表
 date: 2021-09-23
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/merge-two-sorted-lists/>

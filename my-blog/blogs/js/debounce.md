@@ -2,7 +2,7 @@
 title: 模拟简单的防抖
 date: 2021-05-05
 tags:
- - js
+ - js基础
 categories:
  - js
 ---

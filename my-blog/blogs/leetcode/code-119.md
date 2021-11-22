@@ -2,9 +2,9 @@
 title: 杨辉三角2
 date: 2021-10-04
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/path-sum>

@@ -2,9 +2,9 @@
 title: 合并两个有序数组
 date: 2021-09-28
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/merge-sorted-array/>

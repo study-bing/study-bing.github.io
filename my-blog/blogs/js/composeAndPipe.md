@@ -2,9 +2,9 @@
 title: compose函数和pipe函数
 date: 2021-10-26
 tags:
-    - js
+ - js基础
 categories:
-    - js
+ - js
 ---
 
 ## 1.compose

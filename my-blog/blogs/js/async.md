@@ -2,9 +2,9 @@
 title: 模拟async await
 date: 2021-11-01
 tags:
-    - js
+ - js基础
 categories:
-    - js
+ - js
 ---
 
 ## 1.用 generator 模式 async

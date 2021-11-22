@@ -2,9 +2,9 @@
 title: 实现 strStr()
 date: 2021-09-24
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/implement-strstr/>

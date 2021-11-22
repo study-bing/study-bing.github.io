@@ -2,9 +2,9 @@
 title: 最小栈
 date: 2021-11-01
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/min-stack/>

@@ -2,9 +2,9 @@
 title: 罗马数字转整数
 date: 2021-09-22
 tags:
-    - leetcode
+ - 简单
 categories:
-    - js
+ - leetcode
 ---
 
 <https://leetcode-cn.com/problems/roman-to-integer/>

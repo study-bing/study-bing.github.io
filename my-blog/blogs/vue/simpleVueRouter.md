@@ -45,7 +45,7 @@ VueRouter.install = _Vue => {
 				'a',
 				{
 					attrs: {
-						href: `${this.to}`
+						href: `#${this.to}`
 					}
 				},
 				this.$slots.default

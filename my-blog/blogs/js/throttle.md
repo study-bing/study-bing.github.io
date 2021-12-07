@@ -12,11 +12,11 @@ categories:
 ``` js
 function throttle(fn, delay) {
     let timer = null
-    return function () {
+    return function (...args) {
         if (timer) {
             return false
         }
-        timer = setTimeout((...args) => {
+        timer = setTimeout(() => {
             timer = null
             fn.apply(this, args)
         }, delay)

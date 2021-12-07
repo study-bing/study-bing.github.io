@@ -13,11 +13,11 @@ categories:
 ``` js
 function debounce(func, wait) {
     var timeout
-    return function () {
+    return function (...args) {
         clearTimeout(timeout)
-        timeout = setTimeout((...arg) => {
+        timeout = setTimeout(() => {
             timeout = null
-            func.apply(this, ...arg)
+            func.apply(this, args)
         }, wait)
     }
 }

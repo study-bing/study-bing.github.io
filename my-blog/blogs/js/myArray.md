@@ -235,34 +235,38 @@ function isEmpty(data) {
 		return false
 	}
 }
-Array.prototype.myFlat = function(depth = 1) {
+Array.prototype.myFlat = function (depth = 1) {
 	let list = this
 	let result = []
-	list.reduce((preValue, current) => {
+	return list.reduce((preValue, current) => {
 		if (Array.isArray(current)) {
-			preValue.concat(current.myFlat(depth))
+			if (depth - 1 > 0) {
+				preValue = preValue.concat(current.myFlat(depth - 1))
+			} else {
+				preValue = preValue.concat(current)
+			}
 		} else if (!isEmpty(current)) {
-			preValue.concat(current)
+			preValue = preValue.concat(current)
 		}
 		return preValue
 	}, result)
 }
 var arr1 = [1, 2, [3, 4]]
-console.log(arr1.flat())
+console.log(arr1.myFlat())
 // [1, 2, 3, 4]
 
 var arr2 = [1, 2, [3, 4, [5, 6]]]
-console.log(arr2.flat())
+console.log(arr2.myFlat())
 // [1, 2, 3, 4, [5, 6]]
 
 var arr3 = [1, 2, [3, 4, [5, 6]]]
 
-console.log(arr3.flat(2))
+console.log(arr3.myFlat(2))
 // [1, 2, 3, 4, 5, 6]
 
 //使用 Infinity，可展开任意深度的嵌套数组
 var arr4 = [1, 2, [3, 4, [5, 6, [7, 8, [9, 10]]]]]
 
-console.log(arr4.flat(Infinity))
+console.log(arr4.myFlat(Infinity))
 // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 ```

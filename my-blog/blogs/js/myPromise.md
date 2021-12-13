@@ -219,10 +219,6 @@ class Promise {
         })
     }
     static reject(value) {
-        // !重要 不判断会直接执行，抛出一个promise
-        if (isPromise(value)) {
-            return value
-        }
         return new Promise((resolve, reject) => {
             reject(value)
         })

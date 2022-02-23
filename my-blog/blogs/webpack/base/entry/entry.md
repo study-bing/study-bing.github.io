@@ -1,6 +1,6 @@
 ---
 title: webpack入口配置
-date: 2021-08-01
+date: 2021-12-01
 tags:
  - webpack基础
 categories:

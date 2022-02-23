@@ -1,6 +1,6 @@
 ---
 title: 常用的数组方法自我实现
-date: 2021-05-18
+date: 2021-09-18
 tags:
     - js基础
 categories:

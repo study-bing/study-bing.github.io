@@ -1,6 +1,6 @@
 ---
 title:  删除有序数组中的重复项
-date: 2021-09-23
+date: 2021-06-28
 tags:
  - 简单
 categories:

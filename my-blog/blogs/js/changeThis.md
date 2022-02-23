@@ -1,6 +1,6 @@
 ---
 title: 模拟call,apply,bind
-date: 2021-05-08
+date: 2021-09-08
 tags:
     - js基础
 categories:

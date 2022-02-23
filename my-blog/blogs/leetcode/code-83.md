@@ -1,6 +1,6 @@
 ---
 title: 删除排序链表中的重复元素
-date: 2021-09-28
+date: 2021-07-17
 tags:
  - 简单
 categories:

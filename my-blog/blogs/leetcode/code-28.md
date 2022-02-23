@@ -1,6 +1,6 @@
 ---
 title: 实现 strStr()
-date: 2021-09-24
+date: 2021-07-01
 tags:
  - 简单
 categories:

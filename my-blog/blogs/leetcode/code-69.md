@@ -1,6 +1,6 @@
 ---
 title: Sqrt(x)
-date: 2021-09-28
+date: 2021-07-14
 tags:
  - 简单
 categories:

@@ -1,6 +1,6 @@
 ---
 title: 对象的一些方法
-date: 2021-05-20
+date: 2021-09-20
 tags:
     - js基础
 categories:

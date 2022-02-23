@@ -12,4 +12,4 @@ webpack 插件是一个具有 apply 方法的 JavaScript 对象。apply 方法�
 ## 2.编译完提示
 **webpack-plugin.js**
 
-<<< @/blogs/webpack/loaders/webpack-plugin.js
+<<< @/blogs/webpack/plugins/webpack-plugin.js

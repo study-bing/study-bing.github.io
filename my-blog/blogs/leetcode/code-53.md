@@ -2,7 +2,7 @@
 title: 最大子序和
 date: 2021-07-05
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

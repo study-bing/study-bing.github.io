@@ -2,7 +2,7 @@
 title: 最小栈
 date: 2021-11-01
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

@@ -2,7 +2,7 @@
 title: 对称二叉树
 date: 2021-07-21
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

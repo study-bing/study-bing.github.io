@@ -2,7 +2,7 @@
 title: 只出现一次的数字
 date: 2021-10-08
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

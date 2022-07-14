@@ -2,7 +2,7 @@
 title: 最后一个单词的长度
 date: 2021-07-06
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

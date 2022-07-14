@@ -2,7 +2,7 @@
 title:  平衡二叉树
 date: 2021-07-28
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

@@ -2,7 +2,7 @@
 title: 删除排序链表中的重复元素
 date: 2021-07-17
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

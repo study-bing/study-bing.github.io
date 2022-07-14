@@ -2,7 +2,7 @@
 title:  合并两个有序链表
 date: 2021-06-27
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

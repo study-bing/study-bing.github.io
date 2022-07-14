@@ -2,7 +2,7 @@
 title: 二进制求和
 date: 2021-07-12
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

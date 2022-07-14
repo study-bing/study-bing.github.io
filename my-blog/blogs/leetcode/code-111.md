@@ -2,7 +2,7 @@
 title:  二叉树的最小深度
 date: 2021-10-02
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

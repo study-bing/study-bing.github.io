@@ -2,7 +2,7 @@
 title: 实现 strStr()
 date: 2021-07-01
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

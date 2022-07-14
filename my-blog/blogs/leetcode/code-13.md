@@ -2,7 +2,7 @@
 title: 罗马数字转整数
 date: 2021-06-24
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

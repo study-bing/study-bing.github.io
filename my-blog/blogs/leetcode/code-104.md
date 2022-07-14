@@ -2,7 +2,7 @@
 title: 二叉树的最大深度
 date: 2021-07-25
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

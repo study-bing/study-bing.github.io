@@ -2,7 +2,7 @@
 title:  将有序数组转换为二叉搜索树
 date: 2021-07-27
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

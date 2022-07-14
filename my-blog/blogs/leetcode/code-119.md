@@ -2,7 +2,7 @@
 title: 杨辉三角2
 date: 2021-10-04
 tags:
- - 简单
+ - 简单算法题
 categories:
  - leetcode
 ---

@@ -2,7 +2,7 @@
 title: 1 比特与 2 比特字符
 date: 2021-08-09
 tags:
-    - 简单
+    - 简单算法题
 categories:
     - leetcode
 ---
